@@ -15,6 +15,7 @@ import java.util.List;
         name="Member.findByUsername",
         query="select m from Member m where m.username = :username"
 )
+// NamedQuery의 가장 큰 장점은 쿼리를 실행시에 SQL로 바꾸면서 오류를 알려줌
 public class Member {
 
     @Id
